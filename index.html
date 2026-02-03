@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kindia Auto Export LLC | Atlanta Luxury Limousine Service</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #0b0b0f;
+      --bg-card: #15151d;
+      --gold: #c9a44c;
+      --text-light: #e5e5e5;
+      --text-muted: #a1a1aa;
+      --accent: #1f2933;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(145deg, #050508, #0d0d14);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    header span {
+      color: var(--gold);
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+    }
+
+    .cta {
+      margin-top: 30px;
+    }
+
+    .cta a {
+      text-decoration: none;
+      background: var(--gold);
+      color: #000;
+      padding: 14px 32px;
+      border-radius: 40px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #e3c266;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 2.3rem;
+    }
+
+    .section-title p {
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      padding: 30px;
+      border-radius: 16px;
+      border: 1px solid #222;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      color: var(--gold);
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .price span {
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    .card ul {
+      list-style: none;
+      margin-top: 15px;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+      color: var(--text-muted);
+    }
+
+    .contact {
+      text-align: center;
+      background: linear-gradient(160deg, #0f0f18, #08080d);
+      border-top: 1px solid #222;
+    }
+
+    .contact h2 {
+      font-size: 2.2rem;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1><span>Kindia</span> Auto Export LLC</h1>
+    <p>Luxury Limousine & Executive Transportation • Atlanta, Georgia</p>
+    <div class="cta">
+      <a href="tel:14049162188">Call Now: (404) 916-2188</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title">
+      <h2>Hourly Luxury Rates</h2>
+      <p>Competitive Atlanta pricing • Professional chauffeurs • Premium vehicles</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Executive Sedan</h3>
+        <div class="price">$85 <span>/ hour</span></div>
+        <ul>
+          <li>✔ Ideal for airport & business travel</li>
+          <li>✔ Seats up to 3 passengers</li>
+          <li>✔ Leather interior</li>
+          <li>✔ Complimentary bottled water</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Luxury SUV</h3>
+        <div class="price">$110 <span>/ hour</span></div>
+        <ul>
+          <li>✔ Corporate & VIP transport</li>
+          <li>✔ Seats up to 6 passengers</li>
+          <li>✔ Tinted privacy glass</li>
+          <li>✔ Smooth ride comfort</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Stretch Limousine</h3>
+        <div class="price">$140 <span>/ hour</span></div>
+        <ul>
+          <li>✔ Weddings & special events</li>
+          <li>✔ Seats up to 8 passengers</li>
+          <li>✔ LED lighting & sound system</li>
+          <li>✔ Luxury interior styling</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Executive Sprinter Van</h3>
+        <div class="price">$160 <span>/ hour</span></div>
+        <ul>
+          <li>✔ Group & corporate transport</li>
+          <li>✔ Seats up to 12 passengers</li>
+          <li>✔ Wi-Fi & charging ports</li>
+          <li>✔ High-end executive finish</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Book Your Ride</h2>
+    <p><strong>Fode Soumah</strong></p>
+    <p>📞 (404) 916-2188</p>
+    <p>📍 Atlanta, Georgia</p>
+    <p>Professional • Discreet • Reliable</p>
+  </section>
+
+  <footer>
+    © 2026 Kindia Auto Export LLC • All Rights Reserved
+  </footer>
+
+</body>
+</html>
